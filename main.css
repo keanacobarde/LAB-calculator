@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main_body {
+  width: 400px;
+}
+
+.results_screen {
+  width: auto;
+  height: 66px;  
+  background-color: black;
+  font-family: monospace;
+  font-size: 50px;
+  text-align: right;
+  color: white;  
+}
+
+.calkey {
+  display: flex; 
+  flex-wrap: wrap;
+  font-size: 40px;
+  font-family: monospace;
+  text-align: center;
+  width: 24.5%;
+  height: 66px; 
+  justify-content: space-around;
+}
+
+.clear_key {
+  width: 51%;
+  font-size: 40px; 
+}
+
+.row1 {
+  display: flex;
+}
+
+.numberrow {
+  display: flex;
+  width: 100%;
+  justify-content: space-between; 
+}
+
+.row5 {
+  display: flex; 
+}
+
+.zero_key {
+  display: flex; 
+  width: 75.5%;
+  font-size: 40px;
+}
