@@ -47,3 +47,12 @@ We are focusing this lesson on creating the HTML and CSS for the caclulator. Our
 - You can add a class to get the orange buttons. Or you could try `:last-child` (assuming you have row div.)
 
 [Credit](https://frontendmasters.github.io/bootcamp/calculator-html)
+
+# DOCUMENTATION 
+DATE - 07/15/2023 
+> Created seperate branches depending on setup strategy. 
+🌸 feature-setup-table-ver: attempted to format the buttons via tables. 
+🌸 feature_setup_div_ver: attempted dto format buttons via individual divs with their own classes. 
+🌸 Had attempted to complete with a singular div and with the 'flex-wrap' property but saw very little success.
+
+> First: We need to figure out how to get the buttons to fit to the given calculator width. You could manually set the size 

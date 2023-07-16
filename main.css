@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main_body {
+  width: 400px;
+}
+
+.results_screen {
+  width: auto;
+  height: 66px;  
+  background-color: black;
+  font-family: monospace;
+  font-size: ;
+  color: white;  
+}
+
+.calkey {
+  display: flex; 
+  flex-wrap: wrap;
+  width: 24.5%;
+  height: 66px; 
+  justify-content: space-between; 
+}
+
+.clear_key {
+  width: 51%
+}
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.numberrow {
+  display: flex;
+  width: 100%;
+  justify-content: space-between; 
+}
+
+.row5 {
+  display: flex; 
+}
+
+.zero_key {
+  width: 75.5%
+}
