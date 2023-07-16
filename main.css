@@ -12,25 +12,29 @@ body {
   height: 66px;  
   background-color: black;
   font-family: monospace;
-  font-size: ;
+  font-size: 50px;
+  text-align: right;
   color: white;  
 }
 
 .calkey {
   display: flex; 
   flex-wrap: wrap;
+  font-size: 40px;
+  font-family: monospace;
+  text-align: center;
   width: 24.5%;
   height: 66px; 
-  justify-content: space-between; 
+  justify-content: space-around;
 }
 
 .clear_key {
-  width: 51%
+  width: 51%;
+  font-size: 40px; 
 }
 
 .row1 {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .numberrow {
@@ -44,5 +48,7 @@ body {
 }
 
 .zero_key {
-  width: 75.5%
+  display: flex; 
+  width: 75.5%;
+  font-size: 40px;
 }
