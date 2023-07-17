@@ -55,4 +55,7 @@ DATE - 07/15/2023
 🌸 feature_setup_div_ver: attempted dto format buttons via individual divs with their own classes. 
 🌸 Had attempted to complete with a singular div and with the 'flex-wrap' property but saw very little success.
 
-> First: We need to figure out how to get the buttons to fit to the given calculator width. You could manually set the size 
+> First: We need to figure out how to get the buttons to fit to the given calculator width. You could manually set the size. 
+🌸 Went with the 'div' version of the project rather than the table version. The biggest issue was getting the margins to work properly. They work for the four-item rows but the three-item rows were a little more challenging. 
+
+🌸 Ended up messing with percentages and creating individual classes + one id for items in the first and last row that needed it. 
