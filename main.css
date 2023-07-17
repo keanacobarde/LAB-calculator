@@ -24,7 +24,7 @@ body {
   font-family: monospace;
   text-align: center;
   width: 24.5%;
-  height: 66px; 
+  height: 90px; 
   justify-content: space-around;
 }
 
@@ -33,18 +33,21 @@ body {
   font-size: 40px; 
 }
 
+
 .row1 {
   display: flex;
+  margin-bottom: .5%;
 }
 
 .numberrow {
   display: flex;
   width: 100%;
-  justify-content: space-between; 
+  justify-content: space-evenly; 
 }
 
 .row5 {
-  display: flex; 
+  display: flex;
+  margin-top: .5%; 
 }
 
 .zero_key {
