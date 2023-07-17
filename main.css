@@ -24,17 +24,23 @@ body {
   font-family: monospace;
   text-align: center;
   width: 24.5%;
-  height: 66px; 
+  height: 90px; 
   justify-content: space-around;
 }
 
 .clear_key {
-  width: 51%;
-  font-size: 40px; 
+  width: 50%;
+  font-size: 40px;
+  margin-right: .5%; 
+}
+
+#arrw_key {
+  margin-right: .5%;
 }
 
 .row1 {
   display: flex;
+  margin-bottom: .5%;
 }
 
 .numberrow {
@@ -44,11 +50,13 @@ body {
 }
 
 .row5 {
-  display: flex; 
+  display: flex;
+  margin-top: .5%; 
 }
 
 .zero_key {
   display: flex; 
-  width: 75.5%;
+  width: 75%;
   font-size: 40px;
+  margin-right: .5%;
 }
